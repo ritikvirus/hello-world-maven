@@ -1,4 +1,4 @@
-FROM aline:3.7
+FROM alpine:3.7
 WORKDIR /usr/apps/hello-docker/
 RUN apk add --update bash
 #RUN apk add node.js
